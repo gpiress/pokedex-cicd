@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { all, byType } from './pokedex.mjs';
+import { all, byType } from './pokedex.js';
 
 const PORT = 3000;
 
