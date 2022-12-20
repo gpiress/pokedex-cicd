@@ -22,7 +22,6 @@ Fetch all existing pokemon.
 
 Fetch all existing pokemon with the type specified by `:type`.
 
-
 ## CI/CD concepts
 
 ### Testing

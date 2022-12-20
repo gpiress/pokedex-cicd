@@ -1,0 +1,38 @@
+[
+    {
+        "name": "charmander",
+        "type": "fire"
+    },
+    {
+        "name": "charmeleon",
+        "type": "fire"
+    },
+    {
+        "name": "charizard",
+        "type": "fire"
+    },
+    {
+        "name": "squirtle",
+        "type": "water"
+    },
+    {
+        "name": "wartortle",
+        "type": "water"
+    },
+    {
+        "name": "blastoise",
+        "type": "water"
+    },
+    {
+        "name": "bulbasaur",
+        "type": "grass"
+    },
+    {
+        "name": "ivysaur",
+        "type": "grass"
+    },
+    {
+        "name": "venusaur",
+        "type": "grass"
+    }
+]
