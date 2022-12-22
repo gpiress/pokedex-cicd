@@ -34,7 +34,7 @@ describe("by type", () => {
         expect(waterPokemon).toHaveLength(3);
         const names = waterPokemon.map((pkmn) => pkmn.name);
 
-        expect(names).toContain("charmander");
+        expect(names).toContain("squirtle");
         expect(names).toContain("wartortle");
         expect(names).toContain("blastoise");
         expect(names).not.toContain("charmander");
