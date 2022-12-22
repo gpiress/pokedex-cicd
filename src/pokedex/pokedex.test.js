@@ -1,5 +1,6 @@
 import { all, byType } from "./pokedex.js";
 
+
 describe("all", () => {
     it("should return all pokemons", () => {
         const allPokemon = all();
@@ -24,6 +25,19 @@ describe("by type", () => {
         expect(names).toContain("charmeleon");
         expect(names).toContain("charizard");
         expect(names).not.toContain("squirtle");
+        expect(names).not.toContain("bulbasaur");
+    });
+
+    it("should return all water pokemons", () => {
+        let waterPokemon = byType('water');
+
+        expect(waterPokemon).toHaveLength(3);
+        const names = waterPokemon.map((pkmn) => pkmn.name);
+
+        expect(names).toContain("squirtle");
+        expect(names).toContain("wartortle");
+        expect(names).toContain("blastoise");
+        expect(names).not.toContain("charmander");
         expect(names).not.toContain("bulbasaur");
     });
 });
